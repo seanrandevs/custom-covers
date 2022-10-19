@@ -1,1 +1,132 @@
-/*# sourceMappingURL=App.css.map */
+body {
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  position: relative;
+}
+
+html, body {
+  overflow-x: hidden;
+  font-size: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: baseline;
+}
+
+/* navigation styles
+/* ========================================== */
+section {
+  background: #000000;
+  border: none;
+}
+section nav {
+  margin-right: 5rem;
+}
+section ul {
+  display: flex;
+  margin-left: auto;
+}
+section li {
+  display: block;
+  padding: 1rem 1rem 0 1.5rem;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+section li:active {
+  border-bottom: 2px solid #ffffff;
+}
+section .navbar-brand {
+  margin-left: 12rem;
+  border: 4px solid #ffffff;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.7rem;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+}
+section .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-btn {
+    margin: 0 2rem 0 auto;
+    visibility: visible;
+    opacity: 1;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60%;
+    width: 100%;
+    gap: 1.5rem;
+    background-color: #000000;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+  nav ul {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  section .navbar-brand {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+  .responsive_nav {
+    transform: none;
+  }
+  .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 0.5rem;
+  }
+}
+/* Carousel Section Style
+/* ========================================== */
+.carousel {
+  background-color: #000000;
+  padding: 0.5rem 0.5rem;
+}
+
+.main-carousel {
+  height: 100%;
+  width: 100%;
+}
+
+.flex_row {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.thumbnail img {
+  width: 200px;
+  height: 100px;
+}
+
+.clicked {
+  border: 5px solid black;
+}/*# sourceMappingURL=App.css.map */

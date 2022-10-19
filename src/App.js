@@ -1,14 +1,14 @@
 import './scss/App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
-import Home from "./components/Home";
+import CarouselComponent from "./components/CarouselComponent";
 
 function App() {
 
   return (
     <div>
       <Header />
-      <Home />
+      <CarouselComponent />
     </div>
   );
 }
