@@ -12,6 +12,36 @@ html,body {
     -moz-osx-font-smoothing: grayscale;
     vertical-align: baseline;
  }
+ h5 {
+    color: #ffa400;
+    letter-spacing: 4px;
+    padding-top: 22px;
+  }
+  p {
+    color: #727272;
+    letter-spacing: 0.9px;
+    line-height: 28px;
+  }
+  .heading {
+    color: #000000;
+    font-size: 62px;
+  }
+  hr {
+    width: 120px;
+  }
+  /* All Section styles
+------------------------------------- */
+  .section-title {
+    padding: 3rem 7rem;
+    border: 4px solid #000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 92px;
+  }
+  
 /* navigation styles
 /* ========================================== */
  section {
@@ -37,7 +67,7 @@ html,body {
         border-bottom: 2px solid #ffffff;
     }
     .navbar-brand  {
-        margin-left: 12rem;
+        margin-left: 10rem;
         border: 4px solid #ffffff;
         color: #ffffff;
         font-weight: 600;
@@ -136,3 +166,39 @@ html,body {
         border: none;
         opacity: .7;
     }
+    /* Work section */
+    .parallax-section-about {
+        padding-top: 120px;
+	      padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .owl-theme {
+        object-fit: cover;
+        max-width: 60%;
+        margin: 0 auto;
+      }
+      .owl-item {
+        max-width: 450px;
+      }
+      .owl-dots {
+        color: #ffa400;
+      }
+      .item {
+        // width: 70%;
+        padding: 42px;
+      }
+      
+      .item:hover {
+        border: 4px solid #000000;
+      }
+      
+      .item h3 {
+        font-size: 16px;
+      }
+      
+      .item hr {
+        margin-left: 0;
+      }

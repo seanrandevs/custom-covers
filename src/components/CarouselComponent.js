@@ -29,19 +29,19 @@ import { Carousel } from 'react-responsive-carousel';
       }
         >
             <div>
-                <img src="./images/slider/boatslide1.jpg" />
+                <img src="./images/slider/boatslide1.jpg" alt="boatslide1"/>
             </div>
             <div>
-                <img src="./images/slider/boatslide2.jpg" />
+                <img src="./images/slider/boatslide2.jpg" alt="boatslide2" />
             </div>
             <div>
-                <img src="./images/slider/boatslide3.jpg" />
+                <img src="./images/slider/boatslide3.jpg" alt="boatslide3" />
             </div>
             <div>
-                <img src="./images/slider/boatslide4.jpg" />
+                <img src="./images/slider/boatslide4.jpg" alt="boatslide4" />
             </div>
             <div>
-                <img src="./images/slider/boatslide5.jpg" />
+                <img src="./images/slider/boatslide5.jpg" alt="boatslide5" />
             </div>
         </Carousel>
     </div>

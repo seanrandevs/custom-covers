@@ -9,7 +9,7 @@ const Header = () => {
   }
 
   return (
-   <section className="navbar navbar-fixed-top navbar-expand custom-navbar">
+   <section className="navbar navbar-expand">
     <div className="navbar-brand">CUSTOM COVERS</div>
       <nav ref={navRef} className="collapse navbar-collapse">
         <ul>
