@@ -35,6 +35,10 @@ hr {
   width: 120px;
 }
 
+.color-white {
+  color: #ffffff;
+}
+
 /* All Section styles
 ------------------------------------- */
 .section-title {
@@ -46,6 +50,10 @@ hr {
   justify-content: center;
   align-items: center;
   margin-bottom: 92px;
+}
+
+.about .section-title {
+  border-color: #ffffff;
 }
 
 /* navigation styles
@@ -170,31 +178,45 @@ section .navbar-brand:hover {
 }
 
 /* Work section */
-.parallax-section-about {
+.parallax-section-work {
   padding-top: 120px;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#work .col-md-4 {
-  display: block;
-  width: 100%;
-  border: 4px solid transparent;
-  padding: 42px;
-  transition: all 0.4s linear;
+.owl-theme {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 60%;
+  margin: 0 auto;
 }
 
-#work .col-md-4:hover {
+.owl-item {
+  max-width: 450px;
+}
+
+.owl-dots {
+  color: #ffa400;
+}
+
+.item {
+  padding: 42px;
+}
+
+.item:hover {
   border: 4px solid #000000;
 }
 
-#work h3 {
+.item h3 {
   font-size: 16px;
 }
 
-#work .col-md-4 hr {
+.item hr {
   margin-left: 0;
-}/*# sourceMappingURL=App.css.map */
+}
+
+/* about section styles
+/* ========================================== *//*# sourceMappingURL=App.css.map */

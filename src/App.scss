@@ -29,6 +29,9 @@ html,body {
   hr {
     width: 120px;
   }
+  .color-white {
+    color: #ffffff;
+  }
   /* All Section styles
 ------------------------------------- */
   .section-title {
@@ -40,6 +43,9 @@ html,body {
     justify-content: center;
     align-items: center;
     margin-bottom: 92px;
+  }
+  .about .section-title {
+    border-color: #ffffff;
   }
   
 /* navigation styles
@@ -167,7 +173,7 @@ html,body {
         opacity: .7;
     }
     /* Work section */
-    .parallax-section-about {
+    .parallax-section-work {
         padding-top: 120px;
 	      padding-bottom: 20px;
         display: flex;
@@ -202,3 +208,56 @@ html,body {
       .item hr {
         margin-left: 0;
       }
+      /* about section styles
+/* ========================================== */
+        .about {
+          content: '';
+          background: url('./images/aboutbg.jpg') 
+          no-repeat center center/cover;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          margin-top: 6rem;
+        }
+        .about .section-title {
+          margin-top: 7rem;
+          max-width: 655px;
+        }
+        .founder, .why-us {
+          max-width: 555px;
+        }
+      .parallax-section-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+
+        margin-top: 7rem;
+       }
+       .our-story {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 6rem;
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+       @media screen and (max-width: 990px)  {
+         .our-story {
+          display: flex;
+          flex-direction: column;
+         }
+       }
+

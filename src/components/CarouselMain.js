@@ -1,7 +1,12 @@
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
- const CarouselComponent = () => {
+import Boat1 from "../images/boatslide1.jpg";
+import Boat2 from "../images/boatslide2.jpg";
+import Boat3 from "../images/boatslide3.jpg";
+import Boat4 from "../images/boatslide4.jpg";
+import Boat5 from "../images/boatslide5.jpg";
+ const CarouselMain = () => {
 
   return (
     <div className="carousel-wrapper">
@@ -29,23 +34,23 @@ import { Carousel } from 'react-responsive-carousel';
       }
         >
             <div>
-                <img src="./images/slider/boatslide1.jpg" alt="boatslide1"/>
+                <img src={Boat1} alt="boatslide1"/>
             </div>
             <div>
-                <img src="./images/slider/boatslide2.jpg" alt="boatslide2" />
+                <img src={Boat2} alt="boatslide2" />
             </div>
             <div>
-                <img src="./images/slider/boatslide3.jpg" alt="boatslide3" />
+                <img src={Boat3} alt="boatslide3" />
             </div>
             <div>
-                <img src="./images/slider/boatslide4.jpg" alt="boatslide4" />
+                <img src={Boat4} alt="boatslide4" />
             </div>
             <div>
-                <img src="./images/slider/boatslide5.jpg" alt="boatslide5" />
+                <img src={Boat5} alt="boatslide5" />
             </div>
         </Carousel>
     </div>
 );
 }
 
-export default CarouselComponent
+export default CarouselMain
