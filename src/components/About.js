@@ -1,5 +1,9 @@
-
+import { useState } from "react"
 const About = () => {
+   const [show, setShow] = useState(false);
+   const toggle = () => {
+	setShow(!show);
+   }
 
   return (
     <div className="about">
@@ -20,11 +24,23 @@ const About = () => {
 		<p className="color-white">Since then, We have made hundreds of differant custom covers for many differant styles of boats and equipment. We look forward to growing and making sure our customers boats and equipment stay protected.</p>
 	</div>
 	<div className="why-us">
-	 <h2 class="mobile-top">WHY CHOOSE US?</h2>
+	 <h3 class="mobile-top">WHY CHOOSE US?</h3>
 	  <div className="panel">
-		<h4 className="panel-title">Quick Response</h4>
-		<div className="panel-body">
+		<h4 className="panel-title" onClick={toggle}>Quick Response</h4>
+		<div className="panel-body" style={show ? {display: 'block'} : {display: 'none'}}>
 		  <p>We do our very best in respoding as quick as possible. We have a lot of orders to fill, due to high demand. We want to make sure every customer is satisfied and taken care of.</p>
+		</div>
+	  </div>
+	  <div className="panel">
+		<h4 className="panel-title" onClick={toggle}>High Quality Team</h4>
+		<div className="panel-body" style={show ? {display: 'block'} : {display: 'none'}}>
+		  <p>Currently I am doing the covers myself, due to the fact my lazy son likes to spend his time at the gym trying to look buff and he is always working at his other job at an ice cream factoy like Willy Wonka.</p>
+		</div>
+	  </div>
+	  <div className="panel">
+		<h4 className="panel-title" onClick={toggle}>ONLY THE BEST MATERIAL</h4>
+		<div className="panel-body" style={show ? {display: 'block'} : {display: 'none'}}>
+		  <p>We use the best material on the market that provides a long lasting protection for your boat and equipment. Our covers do not fade in the sun and last a very long time.</p>
 		</div>
 	  </div>
 		
