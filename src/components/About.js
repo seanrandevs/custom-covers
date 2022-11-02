@@ -7,13 +7,13 @@ const About = () => {
 
   return (
     <div className="about">
-      <div className="parallax-section-about">
-	<div className="section-title">
-		<h5 className="wow bounceIn">CUSTOM COVERS</h5>
+     <div className="parallax-section-about">
+	  <div className="section-title">
+		<h5>CUSTOM COVERS</h5>
 		<h1 className="heading color-white">WHO WE ARE</h1>
 		<hr />
 		<p className="color-white">Making the best covers to fit your boating needs.</p>
-	</div> 
+	  </div> 
 
  <div className="our-story">
 	<div className="founder">

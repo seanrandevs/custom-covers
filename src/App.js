@@ -4,6 +4,7 @@ import Header from './components/Header';
 import CarouselMain from "./components/CarouselMain";
 import Work from "./components/work/Work";
 import About from "./components/About";
+import Gallery from "./components/Gallery";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <CarouselMain/>
       <Work />
       <About />
+      <Gallery />
     </div>
   );
 }
