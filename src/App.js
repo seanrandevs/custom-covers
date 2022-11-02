@@ -5,6 +5,7 @@ import CarouselMain from "./components/CarouselMain";
 import Work from "./components/work/Work";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Work />
       <About />
       <Gallery />
+      <Contact />
     </div>
   );
 }

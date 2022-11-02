@@ -13,10 +13,10 @@ const WorkCarousel = () => {
 			0: {
 				items: 1,
 			},
-			600: {
+			1000: {
 				items: 2,
 			},
-			1000: {
+			1100: {
 				items: 3,
 			}
 		},
