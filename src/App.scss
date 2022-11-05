@@ -333,18 +333,26 @@ html,body {
         max-width: 690px;
         padding: 2rem 6rem;
       } 
-      .form-control {
-        background: transparent;
-        border-radius: 0;
-        box-shadow: none;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        transition: all 0.4s ease-in-out;
+      form {
+        max-width: 1000px;
+        margin: 0 auto;
       }
-      form input {
+      form .form-control {
+        margin-top: 0.5rem;
+        border-radius: 0;
+        }
+      input {
         height: 54px;
       }
-      form input[type="submit"] {
+      form .form-control:focus {
+        border-color: #ffa400;
+        box-shadow: none;
+      }
+      .submit-btn {
+        max-width: 650px;
+        margin: 0 auto;
+      }
+      input[type="submit"] {
         background: #000000;
         border: 4px solid transparent;
         color: #ffffff;
@@ -352,12 +360,11 @@ html,body {
         margin-top: 18px;
         height: 58px;
       }
-      form input[type="submit"]:hover {
+      input[type="submit"]:hover {
         background: transparent;
         border-color: #000000;
         color: #000000;
       }
-
 
         /* Media
 /* ========================================== */
