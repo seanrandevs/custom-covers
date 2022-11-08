@@ -1,3 +1,4 @@
+import { BsEnvelopeOpen } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -28,6 +29,16 @@ const Contact = () => {
 					<input type="submit" class="form-control" value="SEND MESSAGE" />
 				</div>
 	</form>
+
+	        <div className="contact-detail">
+				<div className="col-md-6 col-sm-6">
+					<h3><BsEnvelopeOpen className="envelope" />  EMAIL</h3>
+					<p>contact@company.com</p>
+				</div>
+			</div>
+			<div className="footer">
+			<div className="navbar-brand">CUSTOM COVERS</div>
+			</div>
 
     </div>
   )
