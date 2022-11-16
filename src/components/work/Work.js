@@ -1,7 +1,7 @@
 import WorkCarousel from "./WorkCarousel"
 const Work = () => {
   return (
-	<>
+	<div id="work">
     <div className="parallax-section-work">
   		<div className="section-title">
   			<h5>CUSTOM COVERS</h5>
@@ -11,7 +11,7 @@ const Work = () => {
   		</div>
 	</div>
 	<WorkCarousel />
-	</>
+	</div>
   )
 }
 

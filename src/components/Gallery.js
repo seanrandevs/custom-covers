@@ -11,7 +11,7 @@ import Hosesock1 from "../images/hosesock.png";
 
 const Gallery = () => {
   return (
-    <div className="gallery">
+    <div className="gallery" id="gallery">
         <div className="parallax-section-about">
   		<div className="section-title">
   			<h5>WE ARE THE BEST</h5>

@@ -43,29 +43,33 @@ html,body {
   
 /* navigation styles
 /* ========================================== */
- section {
+ .navbar {
         background: $secondary;
         border: none;
     nav {
         margin-right: 5rem;
     }
     ul {
+        list-style-type: none;
         display: flex;
         margin-left: auto;
     }
-    li {
+    li .link {
+        text-decoration: none;
         display: block;
         padding: 1rem 1rem 0 1.5rem;
         color: $text-color;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-weight: 400;
         letter-spacing: 0.2rem;
         cursor: pointer;
+        
     }
-    li:active {
-        border-bottom: 2px solid $text-color;
+    li .link:active {
+      border-bottom: 1px solid $text-color;
     }
-    .navbar-brand  {
+     .brand {
+        text-decoration: none;
         margin-left: 10rem;
         border: 4px solid $text-color;
         color: $text-color;
@@ -74,7 +78,7 @@ html,body {
         padding: 0.3rem 0.7rem;
         cursor: pointer;
       }
-    .navbar-brand:hover {
+      .brand:hover {
         color: $text-color;
     }
 }
@@ -88,6 +92,12 @@ html,body {
      visibility: hidden;
      opacity: 0;
      }
+     .nav-sticky {
+      position: fixed;
+      width: 100%;
+      float: left;
+      z-index: 3;
+    }
  @media only screen and (max-width: 1024px) {
     .nav-btn {
         margin: 0 2rem 0 auto;
@@ -98,7 +108,7 @@ html,body {
         position: fixed;
         top: 0;
         left: 0;
-        height: 60%;
+        height: 50%;
         width: 100%;
         gap: 1.5rem;
         background-color: $secondary;
@@ -109,7 +119,7 @@ html,body {
         @include flexCenter(column);
         }
     }
-    section .navbar-brand {
+     section .navbar-brand .brand {
         margin-left: 1rem;
         font-size: 1.2rem;
     }
@@ -122,14 +132,16 @@ html,body {
         top: 2rem;
         right: 0.5rem;
     }
+
 }
 /* Carousel Section Style
 /* ========================================== */
     .carousel {
+      padding-top: 3rem;
         background-color: $secondary;
         @include flexCenter(row);
     }
-    .carousel-wrapper{
+    .carousel-wrapper {
         background-color: $secondary;
         padding: 1rem;
     }
@@ -199,7 +211,6 @@ html,body {
           height: 100%;
           top: 0;
           left: 0;
-          margin-top: 6rem;
         }
         .about .section-title {
           margin-top: 7rem;
@@ -213,7 +224,7 @@ html,body {
       .parallax-section-about {
         @include flexCenter(column);
         color: $text-color;
-        margin-top: 7rem;
+        margin-top: 3.5rem;
        }
        .our-story {
         display: flex;
@@ -226,8 +237,11 @@ html,body {
        .mobile-top {
         margin-bottom: 2rem;
        }
+       .panel {
+        margin: 0.4rem;
+       }
        .panel-title {
-        margin: 0 0 0.4rem 0;
+        margin: 0;
         cursor: pointer;
         background-color: $secondary;
         text-transform: uppercase;
@@ -239,6 +253,7 @@ html,body {
        }
 
        .panel-body {
+        display: none;
         border-top: 1px solid #ddd;
         background-color: $secondary;
         padding: 0.9rem;
@@ -249,7 +264,7 @@ html,body {
       /* gallery section styles
 /* ========================================== */
       .gallery {
-        padding-bottom: 5rem ;
+        padding-top: 3.5rem;
       }
       .gallery .section-title {
         margin-bottom: 7rem;
@@ -304,6 +319,9 @@ html,body {
 
       /* Contact
 /* ========================================== */
+      .contact {
+        padding-top: 3.5rem;
+      }
       .contact .section-title {
         max-width: 690px;
         padding: 2rem 6rem;

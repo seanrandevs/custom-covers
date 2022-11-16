@@ -9,7 +9,7 @@ import Boat5 from "../images/boatslide5.jpg";
  const CarouselMain = () => {
 
   return (
-    <div className="carousel-wrapper">
+    <div className="carousel-wrapper" id="home">
         <Carousel 
         infiniteLoop
         autoPlay

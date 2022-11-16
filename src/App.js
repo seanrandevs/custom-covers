@@ -10,15 +10,17 @@ import Contact from "./components/Contact";
 function App() {
 
   return (
-    <div>
+    <>
+    <div className="nav-sticky">
       <Header />
-      <CarouselMain/>
-      <Work />
-      <About />
-      <Gallery />
-      <Contact />
     </div>
-  );
+          <CarouselMain/>
+          <Work />
+          <About />
+          <Gallery />
+          <Contact />
+    </>
+  )
 }
 
 export default App;
