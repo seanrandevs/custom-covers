@@ -1,8 +1,19 @@
-import { BsEnvelopeOpen } from "react-icons/bs";
+import { useState, useEffect } from "react";
+import { BsEnvelopeOpen, BsCheck2 } from "react-icons/bs";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+	const text = "SEND MESSAGE" 
+    const [buttonText, setButtonText] = useState(text);
+	useEffect(()=> {
+		const timer = setTimeout(()=> {
+		   setButtonText(text);
+		}, 2000);
+		return ()=> clearTimeout(timer);
+	 }, [buttonText])
+
+
 	const form = useRef();
 
 	const sendEmail = (e) => {
@@ -15,6 +26,8 @@ const Contact = () => {
 		}, (error) => {
 			console.log(error.text);
 		});
+		
+
 	};
 
 
@@ -28,7 +41,7 @@ const Contact = () => {
   			<p>If you have any questions or want to place and order, just shoot us a message and we will get back to you shortly.</p>
   		</div>
 	</div>
-     
+		
 	<form ref={form} onSubmit={sendEmail}>
 		<div className="form-group row">
 			<div className="col-md-4 col-sm-12">
@@ -43,9 +56,12 @@ const Contact = () => {
 		</div>
 				<textarea name="" className="form-control" placeholder="Message" cols="100" rows="7"></textarea>
 				<div className="submit-btn">
-					<input type="submit" class="form-control" value="SEND MESSAGE" />
+ 					<button type="submit" class="form-control" onClick={() => setButtonText("MESSAGE SENT")}>
+					  {buttonText} {buttonText === "MESSAGE SENT" ?  <BsCheck2 className="check" /> : ""}
+					</button>
 				</div>
 	</form>
+	            
 
 	        <div className="contact-detail">
 				<div className="col-md-6 col-sm-6">

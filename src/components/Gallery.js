@@ -9,6 +9,7 @@ import Hosesock1 from "../images/hosesock.png";
 
 
 
+
 const Gallery = () => {
   return (
     <div className="gallery" id="gallery">
