@@ -29,7 +29,7 @@ const About = () => {
 	 <h3 class="mobile-top">WHY CHOOSE US?</h3>
 	  <div className="panel">
 		<h4 className="panel-title" onClick={() => setPanel1(!panel1)}>Quick Response</h4>
- 		<p className="panel-body" style={panel1 ? {display: "block"} : {display: "none"}}>We do our very best in responding as quick as possible. We have a lot of orders to fill, due to high demand. We want to make sure every customer is satisfied and taken care of.</p>
+ 		<p className="panel-body" style={panel1 ? {display: "block"} : {display: "none"}}>We do our very best to respond as quickly as possible. We have a lot of orders to fill, due to high demand. We want to make sure every customer is satisfied and taken care of.</p>
 	  </div>
 	  <div className="panel">
 		<h4 className="panel-title" onClick={() => setPanel2(!panel2)}>Variety of Products</h4>

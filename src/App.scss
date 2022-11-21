@@ -296,26 +296,26 @@ html,body {
         bottom: 0;
         width: 100%;
         padding-top: 1rem;
-        transform: translateY(40px);
-        transition: 0.35s;
-        opacity: 0;
+        // transform: translateY(40px);
+        // transition: 0.35s;
+        // opacity: 0;
         cursor: pointer;
       }
-      .container .card:hover .sci {
-        transform: translateY(0px);
-        transition-delay: 0.05s;
-        opacity: 1;
-      }
+      // .container .card:hover .sci {
+      //   transform: translateY(0px);
+      //   transition-delay: 0.05s;
+      //   opacity: 1;
+      // }
       .container .card .sci h4 {
         letter-spacing: 0.05rem;
         text-transform: uppercase;
         margin: 0 0 1rem 1rem;
       }
-      .photos {
-        margin-right: 1rem;
-        text-align: center;
-        font-size: 1.7rem;
-      }
+      // .photos {
+      //   margin-right: 1rem;
+      //   text-align: center;
+      //   font-size: 1.7rem;
+      // }
 
       /* Contact
 /* ========================================== */

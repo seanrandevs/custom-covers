@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { BsEnvelopeOpen, BsCheck2 } from "react-icons/bs";
-import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -11,25 +10,20 @@ const Contact = () => {
 		   setButtonText(text);
 		}, 2000);
 		return ()=> clearTimeout(timer);
-	 }, [buttonText])
-
+	 }, [buttonText]);
 
 	const form = useRef();
 
 	const sendEmail = (e) => {
 	  e.preventDefault();
-  
-	  emailjs.sendForm('service_slbd8lg', 'template_fl4350e', form.current, '_lsEPvQvamzaRJ3Do')
+  	  emailjs.sendForm('service_slbd8lg', 'template_fl4350e', form.current, '_lsEPvQvamzaRJ3Do')
 		.then((result) => {
 			console.log(result.text);
-			console.log("message sent");
 		}, (error) => {
 			console.log(error.text);
 		});
-		
-
+		e.target.reset()
 	};
-
 
   return (
     <div className="contact" id="contact">
@@ -51,10 +45,10 @@ const Contact = () => {
 				<input type="email" class="form-control" name="user_email" placeholder="Email" />
 				</div>
 				<div className="col-md-4 col-sm-12">
-				<input type="text" name="message" class="form-control" placeholder="Subject" />
+				<input type="text" name="subject" class="form-control" placeholder="Subject" />
 			</div>
 		</div>
-				<textarea name="" className="form-control" placeholder="Message" cols="100" rows="7"></textarea>
+				<textarea name="message" className="form-control" placeholder="Message" cols="100" rows="7"></textarea>
 				<div className="submit-btn">
  					<button type="submit" class="form-control" onClick={() => setButtonText("MESSAGE SENT")}>
 					  {buttonText} {buttonText === "MESSAGE SENT" ?  <BsCheck2 className="check" /> : ""}

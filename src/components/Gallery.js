@@ -1,4 +1,4 @@
-import { BiLinkExternal } from "react-icons/bi";
+// import { BiLinkExternal } from "react-icons/bi";
 import Motor1 from "../images/motor1.jpg";
 import TireCover1 from "../images/tirecover1.jpeg";
 import Sock1 from "../images/sock1.jpeg";
@@ -28,7 +28,7 @@ const Gallery = () => {
                     </div>
                     <div className="sci">
                             <h4>Motor Covers</h4>
-                            <BiLinkExternal className="photos" />
+                            {/* <BiLinkExternal className="photos" /> */}
                     </div>
                 </div>
                 <div className="card">
@@ -37,7 +37,7 @@ const Gallery = () => {
                     </div>
                     <div className="sci">
                             <h4>Tire Covers</h4>
-                            <BiLinkExternal className="photos" />
+                            {/* <BiLinkExternal className="photos" /> */}
                     </div>
                 </div>
                 <div className="card">
@@ -46,7 +46,7 @@ const Gallery = () => {
                     </div>
                     <div className="sci">
                             <h4>Rigging Hose Covers</h4>
-                            <BiLinkExternal className="photos" />
+                            {/* <BiLinkExternal className="photos" /> */}
                     </div>
                 </div>
                 <div className="card">
@@ -55,7 +55,7 @@ const Gallery = () => {
                     </div>
                     <div className="sci">
                             <h4>Crankbait Covers</h4>
-                            <BiLinkExternal className="photos" />
+                            {/* <BiLinkExternal className="photos" /> */}
                     </div>
                 </div>
                 <div className="card">
@@ -64,7 +64,7 @@ const Gallery = () => {
                     </div>
                     <div className="sci">
                             <h4>Power Pole Covers</h4>
-                            <BiLinkExternal className="photos" />
+                            {/* <BiLinkExternal className="photos" /> */}
                     </div>
                 </div>
                 <div className="card">
@@ -73,7 +73,7 @@ const Gallery = () => {
                     </div>
                     <div className="sci">
                             <h4>Sock Covers</h4>
-                            <BiLinkExternal className="photos" />
+                            {/* <BiLinkExternal className="photos" /> */}
                     </div>
                 </div>
           
