@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/custom-covers/static/css/main.eb68ef13.css",
+    "main.js": "/custom-covers/static/js/main.82f840c6.js",
+    "static/js/787.e18ce7a4.chunk.js": "/custom-covers/static/js/787.e18ce7a4.chunk.js",
+    "static/media/hosesock.png": "/custom-covers/static/media/hosesock.4e5926935e9d17b90f24.png",
+    "static/media/boatslide4.jpg": "/custom-covers/static/media/boatslide4.7c7ef9e5434c9e15f321.jpg",
+    "static/media/boatslide1.jpg": "/custom-covers/static/media/boatslide1.99ce07dfdfaacfdadf64.jpg",
+    "static/media/boatslide3.jpg": "/custom-covers/static/media/boatslide3.270c144f1da59d33772b.jpg",
+    "static/media/boatslide5.jpg": "/custom-covers/static/media/boatslide5.5d4d82bafb68bede10e6.jpg",
+    "static/media/boatslide2.jpg": "/custom-covers/static/media/boatslide2.6d49703a0f2c4e8f999c.jpg",
+    "static/media/aboutbg.jpg": "/custom-covers/static/media/aboutbg.6fede5971b8ae3ddabc8.jpg",
+    "static/media/sock1.jpeg": "/custom-covers/static/media/sock1.fd71bd840e22ab70d0bf.jpeg",
+    "static/media/tirecover1.jpeg": "/custom-covers/static/media/tirecover1.d72281160eeaf1339e70.jpeg",
+    "static/media/motor1.jpg": "/custom-covers/static/media/motor1.5f85f63a705c401a53a9.jpg",
+    "static/media/powerpolecover.jpeg": "/custom-covers/static/media/powerpolecover.c5f59dcde47e8abc5b12.jpeg",
+    "static/media/crankbaitcover.jpeg": "/custom-covers/static/media/crankbaitcover.affbcd5f1abe3ec3f992.jpeg",
+    "index.html": "/custom-covers/index.html",
+    "main.eb68ef13.css.map": "/custom-covers/static/css/main.eb68ef13.css.map",
+    "main.82f840c6.js.map": "/custom-covers/static/js/main.82f840c6.js.map",
+    "787.e18ce7a4.chunk.js.map": "/custom-covers/static/js/787.e18ce7a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb68ef13.css",
+    "static/js/main.82f840c6.js"
+  ]
+}
