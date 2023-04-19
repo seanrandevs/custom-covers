@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 
 const About = () => {
@@ -28,15 +29,15 @@ const About = () => {
 	<div className="why-us">
 	 <h3 class="mobile-top">WHY CHOOSE US?</h3>
 	  <div className="panel">
-		<h4 className="panel-title" onClick={() => setPanel1(!panel1)}>Quick Response</h4>
+		<h4 className="panel-title" onClick={() => setPanel1(!panel1)}>Quick Response <MdKeyboardArrowDown /></h4>
  		<p className="panel-body" style={panel1 ? {display: "block"} : {display: "none"}}>We do our very best to respond as quickly as possible. We have a lot of orders to fill, due to high demand. We want to make sure every customer is satisfied and taken care of.</p>
 	  </div>
 	  <div className="panel">
-		<h4 className="panel-title" onClick={() => setPanel2(!panel2)}>Variety of Products</h4>
+		<h4 className="panel-title" onClick={() => setPanel2(!panel2)}>Variety of Products <MdKeyboardArrowDown /></h4>
  		<p className="panel-body" style={panel2 ? {display: "block"} : {display: "none"}}>We make boat covers, motor covers, rigging hose covers, power pole covers, sock covers, and crankbait covers.</p>
 	  </div>
 	  <div className="panel">
-		<h4 className="panel-title" onClick={() => setPanel3(!panel3)}>Using The Best Material</h4>
+		<h4 className="panel-title" onClick={() => setPanel3(!panel3)}>Using The Best Material <MdKeyboardArrowDown /></h4>
  		<p className="panel-body" style={panel3 ? {display: "block"} : {display: "none"}}>We use the best material on the market that provides a long lasting protection for your boat and equipment. Our covers do not fade in the sun and last a very long time.</p>
 	  </div>
 	</div>

@@ -261,6 +261,10 @@ html,body {
           color: #CCC;
         }
        }
+       .panel h4 {
+        display: flex;
+        justify-content: space-between;
+       }
       /* gallery section styles
 /* ========================================== */
       .gallery {
