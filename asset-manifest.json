@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/custom-covers/static/css/main.2114dce0.css",
+    "main.css": "/custom-covers/static/css/main.a1fb3156.css",
     "main.js": "/custom-covers/static/js/main.82f840c6.js",
     "static/js/787.e18ce7a4.chunk.js": "/custom-covers/static/js/787.e18ce7a4.chunk.js",
     "static/media/hosesock.png": "/custom-covers/static/media/hosesock.4e5926935e9d17b90f24.png",
@@ -16,12 +16,12 @@
     "static/media/powerpolecover.jpeg": "/custom-covers/static/media/powerpolecover.c5f59dcde47e8abc5b12.jpeg",
     "static/media/crankbaitcover.jpeg": "/custom-covers/static/media/crankbaitcover.affbcd5f1abe3ec3f992.jpeg",
     "index.html": "/custom-covers/index.html",
-    "main.2114dce0.css.map": "/custom-covers/static/css/main.2114dce0.css.map",
+    "main.a1fb3156.css.map": "/custom-covers/static/css/main.a1fb3156.css.map",
     "main.82f840c6.js.map": "/custom-covers/static/js/main.82f840c6.js.map",
     "787.e18ce7a4.chunk.js.map": "/custom-covers/static/js/787.e18ce7a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2114dce0.css",
+    "static/css/main.a1fb3156.css",
     "static/js/main.82f840c6.js"
   ]
 }
